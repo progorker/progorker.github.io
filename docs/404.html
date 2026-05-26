@@ -83,8 +83,29 @@ body {
   user-select: none;
 }
   </style>
+  <script>
+function go() {
+  if (pod()) {
+    location = '/testor/';
+    return;
+  }
+}
+
+function pod() {
+  var url = location + '';
+  var root = 'https://progorker.github.io';
+  if (url.indexOf(root) != 0) return false;
+  url = url.substring(root.length);
+  var items = ['/trackor/', '/sourcor/', '/buildor/', '/makor/'];
+  for (var i = 0; i < items.length; i++) {
+    var it = items[i];
+    if (url.indexOf(it) == 0) return true;
+  }
+  return false;
+}
+  </script>
 </head>
-<body>
+<body onload="go()">
   <div class="dtt-page-counter-cover"><div class="dtt-page-counter-inner"><div style="top: 10px" class="dtt-page-counter"><div>1</div></div></div></div>
   <div class="dtt-page">=============================_============
   _ __ _ _ ___  __ _ ___ _ _| |_____ _ _ 
