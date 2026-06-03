@@ -11,6 +11,26 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://progorker.github.io/trackor/</loc>
+    <lastmod>2026-06-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://progorker.github.io/sourcor/</loc>
+    <lastmod>2026-06-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://progorker.github.io/buildor/</loc>
+    <lastmod>2026-06-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://progorker.github.io/makor/</loc>
+    <lastmod>2026-06-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://progorker.github.io/mytestor-api/</loc>
     <lastmod>2026-06-03</lastmod>
     <priority>0.9</priority>
