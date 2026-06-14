@@ -128,6 +128,11 @@ function g_resize() {
   $('.dtt-page-inner').css( 'minHeight', (sh - 15) + 'px');
   $('#page-o .dtt-page-inner').css( 'minHeight', '2200px');
   $('#page-o .dtt-page-inner').css( 'minWidth', '500px');
+  if ( sw <= 500 ) {
+    $('.dtt-page').css( 'overflowX', 'auto');
+  } else {
+    $('.dtt-page').css( 'overflowX', 'hidden');
+  }
   $('.dtt-page-inner').css( 'border', 'dotted 2px gainsboro' );
   $('.dtt-page-inner').css( 'padding', '5px' );
   $('#page-s .dtt-script').width( sw - 40 - 35 - 15 + 10 );
